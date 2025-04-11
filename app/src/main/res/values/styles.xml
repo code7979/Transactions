@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="RoundedCornerButton" parent="Widget.MaterialComponents.Button">
+        <item name="cornerRadius">@dimen/passport_round_button_radius</item>
+        <item name="android:minHeight">@dimen/passport_round_button_height</item>
+    </style>
+
+    <style name="Passport.HighlightRoundButton" parent="@style/Widget.AppCompat.Button.Borderless">
+        <item name="android:textSize">@dimen/passport_round_button_text_size</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/passport_highlight_round_button_fg_color</item>
+        <item name="android:ellipsize">end</item>
+        <item name="android:background">@drawable/passport_highlight_round_button_bg</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">@dimen/passport_round_button_height</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:paddingStart">@dimen/passport_round_button_padding_horizontal</item>
+        <item name="android:paddingEnd">@dimen/passport_round_button_padding_horizontal</item>
+    </style>
+
+
+    <style name="Base.V21.PassportEditText" parent="@style/Widget.AppCompat.EditText">
+        <item name="android:textCursorDrawable">@drawable/passport_cursor_drawable</item>
+    </style>
+
+    <style name="Base.PassportEditText" parent="@style/Base.V21.PassportEditText" />
+
+    <style name="PassportEditText" parent="@style/Base.PassportEditText">
+        <item name="android:textSize">@dimen/passport_edit_text_size</item>
+        <item name="android:textColor">@color/passport_edit_text_input_color</item>
+        <item name="android:textColorHint">@color/passport_edit_text_hint_color</item>
+        <item name="android:background">@drawable/passport_edittext_layout_bg</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:minHeight">@dimen/passport_edit_text_height</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:paddingStart">@dimen/passport_edit_text_padding_horizontal</item>
+        <item name="android:paddingEnd">@dimen/passport_edit_text_padding_horizontal</item>
+    </style>
+
+    <style name="TextAppearance.TitleLarge" parent="android:TextAppearance.Material.Title">
+        <item name="android:textSize">22sp</item>
+        <item name="android:letterSpacing">0</item>
+        <item name="lineHeight">28sp</item>
+        <item name="android:textAllCaps">false</item>
+
+    </style>
+
+    <style name="TextAppearance.TitleSmall" parent="android:TextAppearance.Material.Title">
+        <item name="android:textSize">16sp</item>
+        <item name="android:letterSpacing">0.001</item>
+        <item name="android:textAllCaps">false</item>
+    </style>
+
+    <style name="TextAppearance.BodyLarge" parent="TextAppearance.AppCompat.Body1">
+        <item name="android:textSize">16sp</item>
+        <item name="android:letterSpacing">0</item>
+        <item name="android:textAllCaps">false</item>
+    </style>
+
+</resources>

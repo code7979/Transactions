@@ -1,0 +1,36 @@
+<resources>
+    <string name="app_name">Transactions</string>
+    <string name="passport_mi_account_title">Sign in with username</string>
+    <string name="hint_username">Username</string>
+    <string name="hint_password">Password</string>
+    <string name="text_login_btn">Sign in</string>
+    <string name="logout">Sign out</string>
+    <string name="progress_message_login">Logging you in…</string>
+    <string name="progress_message_generic">Please wait…</string>
+    <string name="progress_message_transaction">Fetching transaction…</string>
+
+    <string name="user_agreement_desc">I\'v read and agreed to Mi Account\'s <font color="#0d84ff">User Agreement</font> and <font color="#0d84ff">Privacy Policy</font>.</string>
+
+    <string name="error_login_io_exception">Login failed due to a connection issue. Please ensure you\'re connected to the internet and try again.</string>
+    <string name="error_login_http_exception">We couldn’t log you in at the moment. Please try again shortly.</string>
+    <string name="error_login_json_exception">Oops! We ran into an issue while logging you in. Please try again.</string>
+    <string name="error_user_agreement_required">Please agree to the terms and conditions.</string>
+    <string name="error_login_empty_username">Please enter username to continue.</string>
+    <string name="error_login_empty_password">Please enter password to continue.</string>
+
+    <string name="error_null_response">Unexpected error occurred. Please try again.</string>
+
+    <string name="error_http_default">Something went wrong. Please try again later.</string>
+    <string name="error_http_400">Bad request. Please check your input.</string>
+    <string name="error_http_401">Unauthorized access. Please login again.</string>
+    <string name="error_http_403">Access denied. You don’t have permission to do this.</string>
+    <string name="error_http_404">Requested resource not found.</string>
+    <string name="error_http_408">Request timed out. Please try again.</string>
+    <string name="error_http_429">Too many requests. Please wait a moment and try again.</string>
+    <string name="error_http_500">Server error. Please try again later.</string>
+    <string name="error_http_502">Bad gateway. Try again in a few moments.</string>
+    <string name="error_http_503">Server temporarily unavailable. Please try again shortly.</string>
+    <string name="error_http_504">Server timeout. Please try again later.</string>
+    <string name="content_description_logout">Log out button</string>
+    <string name="error_failed_logout">Failed to logout</string>
+</resources>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+
+    <color name="passport_common_text_secondary">#99000000</color>
+
+    <!--    <color name="passport_common_text_primary">#e6ffffff</color>-->
+    <color name="passport_common_text_primary">#ff000000</color>
+
+    <color name="passport_common_edit_hint_text">#66000000</color>
+    <color name="passport_edit_text_focus_color">#0d84ff</color>
+    <color name="passport_common_edit_bg">#0f000000</color>
+
+    <color name="passport_highlight_round_button_text_enabled">#ffffffff</color>
+    <color name="passport_highlight_round_button_text_disabled">#4d000000</color>
+    <color name="passport_highlight_round_button_bg_disabled">#0f000000</color>
+
+    <color name="passport_password_notice_title">@color/passport_common_text_primary</color>
+
+    <color name="passport_password_notice_foot">@color/passport_common_text_secondary</color>
+
+    <color name="passport_edit_text_input_color">@color/passport_common_text_primary</color>
+    <color name="passport_edit_text_hint_color">@color/passport_common_edit_hint_text</color>
+    <color name="passport_edit_text_bg_color">@color/passport_common_edit_bg</color>
+    <color name="passport_sns_other_way_title">@color/passport_common_text_secondary</color>
+
+    <color name="passport_sns_login_title_divider">#26ffffff</color>
+    <string name="facebook_login_btn_content_description">Sign in with Facebook</string>
+
+</resources>

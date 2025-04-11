@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="passport_round_button_text_size">15.33sp</dimen>
+    <dimen name="passport_round_button_padding_horizontal">20dp</dimen>
+    <dimen name="passport_round_button_height">48dp</dimen>
+    <dimen name="passport_round_button_radius">23dp</dimen>
+    <dimen name="passport_edit_text_size">18sp</dimen>
+    <dimen name="passport_edit_text_height">56dp</dimen>
+    <dimen name="passport_edit_text_padding_horizontal">16dp</dimen>
+    <dimen name="passport_edit_text_bg_radius">18dp</dimen>
+    <dimen name="passport_edit_text_stroke_width">2dp</dimen>
+
+    <dimen name="passport_view_group_external_margin_vertical">32dp</dimen>
+    <dimen name="passport_view_group_internal_margin_vertical">16dp</dimen>
+
+    <dimen name="passport_login_page_padding_top">55dp</dimen>
+<!--    <dimen name="passport_logo_title_size">60dp</dimen>-->
+    <dimen name="passport_main_title_content_margin">27dp</dimen>
+
+<!--    <dimen name="passport_sns_login_divider_height">0.67dp</dimen>-->
+    <dimen name="passport_sns_login_divider_height">1dp</dimen>
+
+
+    <dimen name="small_view_padding">10dp</dimen>
+    <dimen name="normal_view_padding">16dp</dimen>
+    <dimen name="large_view_padding">27dp</dimen>
+
+    <dimen name="small_view_margin">10dp</dimen>
+    <dimen name="normal_view_margin">16dp</dimen>
+    <dimen name="large_view_margin">32dp</dimen>
+    <dimen name="radius_16dip">16dp</dimen>
+
+</resources>
