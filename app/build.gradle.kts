@@ -57,6 +57,7 @@ dependencies {
     implementation(libs.androidx.lifecycle.viewmodel.ktx)
 
     implementation(libs.androidx.security.crypto)
+    implementation("androidx.biometric:biometric:1.1.0")
 
     implementation(libs.hilt.android)
     kapt(libs.hilt.android.compiler)

@@ -3,6 +3,8 @@ package com.abhiket.transactions.utils
 import androidx.annotation.StringRes
 import com.abhiket.transactions.R
 import com.google.gson.Gson
+import retrofit2.Call
+import retrofit2.awaitResponse
 import java.io.Reader
 import java.util.regex.Pattern
 
@@ -35,8 +37,4 @@ fun getHttpErrorMessage(httpStatusCode: Int): Int {
         504 -> R.string.error_http_504
         else -> R.string.error_http_default
     }
-}
-
-fun handleErrorResponse() {
-
 }

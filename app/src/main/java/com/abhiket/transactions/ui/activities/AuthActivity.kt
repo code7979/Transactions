@@ -25,6 +25,8 @@ class AuthActivity : AppCompatActivity(), View.OnClickListener {
     }
 
     private var isUserAgreementTicked: Boolean = false
+
+
     private val viewModel by viewModels<AuthViewModel>()
 
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -51,7 +53,7 @@ class AuthActivity : AppCompatActivity(), View.OnClickListener {
                     dialog.dismiss()
                     val message = state.data
                     Toast.makeText(applicationContext, message, Toast.LENGTH_SHORT).show()
-                    startActivity(Intent(this@AuthActivity, TransactionActivity::class.java))
+                    startActivity(Intent(this, BiometricActivity::class.java))
                     finish()
                 }
             }

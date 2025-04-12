@@ -32,19 +32,19 @@ class SplashActivity : AppCompatActivity() {
             v.setPadding(systemBars.left, systemBars.top, systemBars.right, systemBars.bottom)
             insets
         }
-        lifecycleScope.launch {
-            val asyncToken = async(Dispatchers.IO) {
-                tokenManager.retrieve(TokenManager.KEY)
-            }
-            val token = asyncToken.await()
-            val intent = if (token != null) {
-                Intent(this@SplashActivity, TransactionActivity::class.java)
-            } else {
-                Intent(this@SplashActivity, AuthActivity::class.java)
-            }
-            startActivity(intent)
-            finish()
-        }
 
+        checkForToken(tokenManager)
+    }
+
+    private fun checkForToken(tokenManager: TokenManager) = lifecycleScope.launch {
+        val asyncToken = async(Dispatchers.IO) { tokenManager.retrieve(TokenManager.KEY) }
+        val token = asyncToken.await()
+        val intent = if (token != null) {
+            Intent(this@SplashActivity, BiometricActivity::class.java)
+        } else {
+            Intent(this@SplashActivity, AuthActivity::class.java)
+        }
+        startActivity(intent)
+        finish()
     }
 }
